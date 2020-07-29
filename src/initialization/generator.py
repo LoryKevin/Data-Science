@@ -20,7 +20,7 @@ def dir_generate():
     except FileExistsError:
         pass
     try:
-        os.mkdir('../../data/analysis') # 分析中间数据目录
+        os.mkdir('../../data/analysis') # 分析数据目录
     except FileExistsError:
         pass
     try:

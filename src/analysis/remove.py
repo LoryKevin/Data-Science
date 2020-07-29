@@ -9,8 +9,8 @@ from src.function.file_operations import *
 
 def code_remove():
     print("    移除无效代码开始！")
-    remove_invalid(UIterator('../../data/analysis/non_python.json'))
-    remove_invalid(UIterator('../../data/analysis/test_oriented.json'))
+    remove_invalid(UIterator('../../data/analysis/user_nonPython.json'))
+    remove_invalid(UIterator('../../data/analysis/user_testCase.json'))
     generate_json('../../data/analysis/topic_effective.json', topic_dictionary_generate())
     generate_json('../../data/analysis/user_effective.json', user_dictionary_generate())
     print("    移除无效代码完成！")
